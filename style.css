@@ -34,14 +34,18 @@ button {
     font-weight: bold;
 }
 
-.ever-top-section {
+.root-top-section {
     display: flex;
+}
+
+.root-top-section .empty-left,
+.root-top-section .empty-right {
+    background-color: #1F2937;
 }
 
 .empty-left,
 .empty-right {
     flex: 1;
-    background-color: #1F2937;
 }
 
 .top-section {
@@ -107,4 +111,39 @@ a {
 .cta {
     background-color: #3882F6;
     color: #F9FAF8;
+}
+
+.root-mid-section {
+   display: flex;
+   justify-content: center;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustrations div {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #3882F6;
+    border-radius: 16px;
+}
+
+.illustrations p {
+    text-align: center;
+}
+
+.mid-information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 40px;
 }
