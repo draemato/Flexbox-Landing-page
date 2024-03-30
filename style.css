@@ -206,3 +206,17 @@ a {
     padding-left: 24px;
     padding-right: 24px;
 }
+
+.root-footer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.footer-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
