@@ -153,6 +153,7 @@ a {
     justify-content: center;
     background-color: #E5E7EB;
     padding: 64px;
+    margin-bottom: 128px;
 }
 
 .quote-container {
@@ -170,4 +171,38 @@ a {
 .quote-subtext {
     text-align: end;
     font-weight: bold;
+}
+
+.root-cta-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.cta-container {
+    display: flex;
+    flex: 2;
+    flex-basis: 484px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+    border: 8px #3882F6 solid;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 4px #F9FAF8 solid;
+    border-radius: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
