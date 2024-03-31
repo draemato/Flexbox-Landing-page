@@ -36,16 +36,9 @@ button {
 
 .root-top-section {
     display: flex;
-}
-
-.root-top-section .empty-left,
-.root-top-section .empty-right {
+    padding: 0 164px;
+    padding-bottom: 128px;
     background-color: #1F2937;
-}
-
-.empty-left,
-.empty-right {
-    flex: 1;
 }
 
 .top-section {
@@ -116,12 +109,13 @@ a {
 .root-mid-section {
    display: flex;
    justify-content: center;
+   padding: 0 164px;
+   padding-bottom: 128px;
 }
 
 .mid-section {
     display: flex;
     flex-direction: column;
-    gap: 128px;
 }
 
 .mid-content {
@@ -141,6 +135,15 @@ a {
     text-align: center;
 }
 
+.illustrations {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mid-content ul {
+    gap: 64px;
+}
+
 .mid-information {
     font-size: 36px;
     font-weight: bolder;
@@ -152,7 +155,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 64px;
+    padding: 128px;
     margin-bottom: 128px;
 }
 
@@ -177,15 +180,16 @@ a {
     display: flex;
     justify-content: center;
     margin-bottom: 128px;
+    padding: 0 164px;
 }
 
 .cta-container {
     display: flex;
     flex: 2;
     flex-basis: 484px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 40px 100px;
     gap: 20px;
     border: 8px #3882F6 solid;
     border-radius: 10px;
