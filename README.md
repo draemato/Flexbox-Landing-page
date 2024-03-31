@@ -1,3 +1,3 @@
 # Flexbox-Landing-page
 
-Please i have no idea what im doing
+Why do i even do this

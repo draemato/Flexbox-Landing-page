@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: roboto, sans-serif;
+    font-family: Impact, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -38,13 +38,13 @@ button {
     display: flex;
     padding: 0 164px;
     padding-bottom: 128px;
-    background-color: #1F2937;
+    background-color: darkgreen;
 }
 
 .top-section {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: darkgreen;
     gap: 128px;
     flex-grow: 1;
 }
@@ -89,7 +89,11 @@ a {
 
 .right {
     display: flex;
-    flex: 1;
+}
+
+.right img {
+    width: 420px;
+    height: auto;
 }
 
 .image-placeholder {
@@ -102,7 +106,7 @@ a {
 }
 
 .cta {
-    background-color: #3882F6;
+    background-color: #39d511;
     color: #F9FAF8;
 }
 
@@ -128,13 +132,21 @@ a {
     width: 250px;
     height: 250px;
     border: 5px solid #3882F6;
-    border-radius: 16px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustrations img {
+    width: 240px;
+    height: 240px;
 }
 
 .illustrations p {
     margin-top: 12px;
     text-align: center;
-    color: #1F2937;
+    color: darkgreen;
 }
 
 .illustrations {
@@ -149,7 +161,7 @@ a {
 .mid-information {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: darkgreen;
     padding: 40px;
 }
 
@@ -170,7 +182,7 @@ a {
 .quote-text {
     font-style: italic;
     font-size: 36px;
-    color: #1F2937;
+    color: darkgreen;
 }
 
 .quote-subtext {
@@ -193,9 +205,9 @@ a {
     align-items: center;
     padding: 40px 100px;
     gap: 20px;
-    border: 8px #3882F6 solid;
+    border: 8px #10b12b solid;
     border-radius: 10px;
-    background-color: #3882F6;
+    background-color: #10b12b;
     color: #F9FAF8;
 }
 
@@ -205,18 +217,26 @@ a {
 }
 
 .cta-button {
-    background-color: #3882F6;
+    background-color: #29b867;
     color: #F9FAF8;
     border: 2px #F9FAF8 solid;
-    border-radius: 10px;
-    padding-left: 24px;
-    padding-right: 24px;
+    border-radius: 0;
+    width: 121px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button img {
+    width: 121px;
+    height: 41px;
 }
 
 .root-footer-section {
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: darkgreen;
 }
 
 .footer-container {
